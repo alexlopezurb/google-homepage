@@ -1,4 +1,4 @@
-This is alexlopezurb's second git project!
+This is Alex's second git project!
 
 Hello test.
 

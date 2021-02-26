@@ -5,7 +5,35 @@
     <title>Google</title>
     <!-- Load icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Apps Image-->
+    <a href="https://icons8.com/icon/83321/circled-menu"></a>
     <style>
+        /* Style the navbar */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+        }
+
+        .alignleft {
+            float: left;
+        }
+
+        .alignright {
+            float: right;
+        }
+
+        a {
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Style Google logo */
         .image-container {
             display: flex;
             flex-direction: column;
@@ -15,6 +43,7 @@
             height: 65vh;
         }
 
+        /* Style the search bar */
         form {
             display: flex;
             flex-direction: row;
@@ -31,7 +60,7 @@
             font-size: 17px;
             border: 1px solid grey;
             float: left;
-            width: 50%;            
+            width: 25%;            
         }
 
         /* Style the submit button */
@@ -48,6 +77,14 @@
     </style>
 </head>
 <body>
+    <ul>
+        <li class="alignleft"><a href="#about">About</a></li>
+        <li class="alignleft"><a href="#store">Store</a></li>
+        <li class="alignright"><a href="#apps_icon"><img src="https://img.icons8.com/material-outlined/24/000000/circled-menu.png"></a></li>
+        <li class="alignright"><a href="#images">Images</a></li>
+        <li class="alignright"><a href="#gmail">Gmail</a></li>
+    </ul>
+    <div style="clear: both;"></div>
     <div class="image-container">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     </div>
